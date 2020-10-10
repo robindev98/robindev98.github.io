@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<title>Orinoco</title>
+	
+</head>
+<body> 
+	<header> <!-- header with all tab -->
+		<div>
+			<img id="imgLogo" src="images/logo_orinoco.png" alt="logo_orinoco">
+			<a class="head" href="index.html"> 
+				Nos produits
+			</a>
+			<a class="head" href="panier.html"> 
+				Panier
+			</a>
+		</div>	
+	</header>
+
+	<section> <!-- title of page -->
+		<h1 class="titre">
+			Orinoco
+		</h1>
+		<p>
+			Des produits de qualité pour vous satisfaire
+		</p>
+	</section>
+
+	<section> <!-- All object -->
+		<div id="bloc">
+			<h2>
+				À l'affiche en ce moment
+			</h2>
+		</div>
+		<div id="bloc_page">
+			<div class="list_block">
+				<div>
+					<button onClick="getProducts()"></button>
+					<div>
+						<a href="produit_Ours_en_peluche.html">
+							<img class="until" src="images/teddy_1.jpg">
+						</a>
+						<h3>
+							Ours en peluche
+						</h3>
+						<p>
+							couleur - marron
+						</p>
+					</div>	
+				</div>
+				<div>
+					<a href="">
+						<img class="until" src="images/teddy_2.jpg">
+					</a>
+					<h3>
+						Ours en peluche
+					</h3>
+					<p>
+						couleur - blanc
+					</p>
+				</div>
+				<div>
+					<a href="">
+						<img class="until" src="images/teddy_3.jpg">
+					</a>
+					<h3>
+						Ours en peluches
+					</h3>
+					<p>
+						couleurs - marron et marron clair
+					</p>
+				</div>
+			</div>
+			<div class="list_block">
+				<div>
+					<img class="until" src="images/teddy_4.jpg">
+					<h3>
+						Ours en peluche
+					</h3>
+					<p>
+						couleur - marron clair
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/teddy_5.jpg">
+					<h3>
+						Ours en peluche
+					</h3>
+					<p>
+						couleur - beige
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/oak_1.jpg">
+					<h3>
+						Meuble en chêne 
+					</h3>
+					<p>
+						vernis cellulosique
+					</p>
+				</div>
+			</div>
+			<div class="list_block">
+				<div>
+					<img class="until" src="images/oak_2.jpg">
+					<h3>
+						Meuble en chêne
+					</h3>
+					<p>
+						vernis acrylique
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/oak_3.jpg">
+					<h3>
+						Meuble en chêne
+					</h3>
+					<p>
+						vernis gras au succin
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/oak_4.jpg">
+					<h3>
+						Meuble en chêne
+					</h3>
+					<p>
+						vernis PU Polyuréthane
+					</p>
+				</div> 
+			</div>
+			<div class="list_block">
+				<div>
+					<img class="until until_10" src="images/oak_5.jpg">
+					<h3>
+						Meuble en chêne
+					</h3>
+					<p>
+						 vernis au mastic
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/vcam_1.jpg">
+					<h3>
+						Appareil photo
+					</h3>
+					<p>
+						lentille - 45 mm
+					</p>
+				</div>
+				<div>
+					<img class="until" src="images/vcam_2.jpg">
+					<h3>
+						Appareil photo
+					</h3>
+					<p>
+						lentille - 25 mm
+					</p>
+				</div> 
+			</div>
+			<div class="list_block">
+				<div>
+					<img class="until" src="images/vcam_3.jpg">
+					<h3>
+						Appareil photo
+					</h3>
+					<p>
+						lentille - 15 mm
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/vcam_4.jpg">
+					<h3>
+						Appareil photo
+					</h3>
+					<p>
+						lentille 50 mm
+					</p>
+				</div> 
+				<div>
+					<img class="until" src="images/vcam_5.jpg">
+					<h3>
+						Appareil photo
+					</h3>
+					<p>
+						lentille 75 mm
+					</p>
+				</div> 
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html> 
+ 
