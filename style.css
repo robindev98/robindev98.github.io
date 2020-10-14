@@ -9,7 +9,7 @@
 }
 
 #imgLogo {
- 	width: 200px;
+ 	width: 200px; 
  }
 
 .head {
@@ -69,15 +69,47 @@ section {
 }
 
 /* other page */
+.tabs {
+	width: 700px;
+	margin: auto;
+	border-radius: 2px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tabs-onglets {
+	width: 45%;
+	margin: auto;
+}
+
+.onglets {
+	font-weight: 700;
+	cursor: pointer;
+	border-bottom: 2px solid black;
+}
+
+.contenu {
+	height: 50%;
+	width: 50%;
+	position: absolute;
+	opacity: 0; 
+}
+
+/* Anim */ 
 
 .active {
-	display: none;
+	background: midnightblue;
+	color: #F1F1F1;
+	transition: all 0.3s ease;
 }
 
-.tab-content.active {
-	display: block;
+.activeContenu {
+	animation: fade 0.5s forwards;
 }
-
-ul {
-	list-style-type: none; 
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
