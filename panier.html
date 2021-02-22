@@ -1,23 +1,90 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-		<title>panier</title>
-	</head>
-		<body>
-<header>
+<html lang="fr">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>panier</title>
+</head>
+
+<body>
+
+	<header>
+		<!-- header with all tab -->
 		<div>
-			<img id="imgLogo" src="images/logo_orinoco.png" alt="logo_orinoco">
-			<a class="head" href="index.html"> 
-				Nos produits
+			<a href="index.html">
+				<img id="imgLogo" src="images/logo_orinoco.png" alt="logo_orinoco">
 			</a>
-			<a class="head" href="panier.html"> 
-				Panier
+			<a class="head">
+				Panier  
 			</a>
-		</div>	
+		</div>
 	</header>
-		</body>
+
+	<section>
+		<h1>
+			Vos commandes
+		</h1>
+
+		<button>
+
+		</button>
+	</section>
+
+	<div id="formulaire">
+		<form method="post" name="formReponse" id="form_0">
+
+			<div class="form">
+				<label for="prenom">
+					Prénom
+				</label>
+				<input type="text" id="prenom" name="prenom" class="form_input" required
+					placeholder="Renseignez votre prénom">
+			</div>
+
+			<div class="form">
+				<label>
+					Nom
+				</label>
+				<input type="text" id="nom" name="nom" class="form_input" required placeholder="Renseignez votre nom">
+			</div>
+
+			<div class="form">
+				<label>
+					Adresse électronique
+				</label>
+				<input type="text" id="mail" name="mail" class="form_input" required
+					placeholder="Renseignez votre adresse électronique">
+			</div>
+
+			<div class="form">
+				<label>
+					Adresse postale
+				</label>
+				<input type="text" id="adresse" name="adresse" class="form_input" required
+					placeholder="Renseignez votre adresse postale">
+			</div>
+
+			<div class="form">
+				<label>
+					Ville
+				</label>
+				<input type="text" id="ville" name="ville" class="form_input" required
+					placeholder="Renseignez votre ville">
+			</div>
+
+			<button>
+				Commander
+			</button>
+
+			<div id="info">
+
+			</div>
+
+		</form>
+	</div>
+
+</body>
+
 </html>

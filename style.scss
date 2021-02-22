@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url("font/KaushanScript-Regular.eot");
+    src: url("font/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), 
+    url("font/KaushanScript-Regular.woff2") format("woff2"), 
+    url("font/KaushanScript-Regular.woff") format("woff"), 
+    url("font/KaushanScript-Regular.ttf") format("truetype"), 
+    url("font/KaushanScript-Regular.svg#KaushanScript-Regular") format("svg"); 
+  } 
+  
+  @font-face {   
+    font-family: 'Montserrat-Regular';
+    src: url("font/Montserrat-Regular.eot");
+    src: url("font/Montserrat-Regular?#iefix") format("embedded-opentype"), 
+    url("font/Montserrat-Regular.woff2") format("woff2"), 
+    url("font/Montserrat-Regular.woff") format("woff"), 
+    url("font/Montserrat-Regular.ttf") format("truetype"), 
+    url("font/Montserrat-Regular.svg#Montserrat-Regular") format("svg"); 
+  }   
+  
+  @font-face {
+    font-family: 'GoudyStM';
+    src: url("font/GoudyStM.eot");
+    src: url("font/GoudyStM?#iefix") format("embedded-opentype"), 
+    url("font/GoudyStM.woff2") format("woff2"), 
+    url("font/GoudyStM.woff") format("woff"), 
+    url("font/GoudyStM.ttf") format("truetype"), 
+    url("font/GoudyStM.svg#GoudyStM") format("svg");  
+  }
+  
+  body {
+      margin: 0;
+      color: #212529;
+      font-family: 'KaushanScript-Regular', sans-serif;
+      background-color: #EFEBE9; 
+  } 
+  
+  #bloc {
+      background-color: brown;
+      height: 80px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+      &_page { 
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+  }   
+  
+  header div {
+      background-color: black;
+      display: flex;;
+      justify-content: space-between;
+      height: 55px;
+  }
+  
+  /* index */
+  
+      /* header */
+  
+      #imgLogo {
+           width: 200px; 
+           height: 55px;
+       }
+  
+  .prix, h3 {
+      line-height: 5px;
+  }
+  
+  .head {
+       margin-left: 30px;
+       color: white;
+       display: flex;
+       align-items: center;
+       margin-right: 5px;
+       font-size: 1.1rem;
+       text-decoration: none;
+   }
+  
+  .until {
+      width: 300px;
+      border: 1px solid #778899;
+      border-radius: 5px;
+      box-shadow: 0px 0px 1px 1px black;
+      margin-bottom: 20px;
+      background-color: white;
+  }
+  
+  .img {
+      width: 300px;
+      height:  200px;
+      border-bottom: 0.5rem solid black;
+      margin-bottom: -10px;
+  }
+  
+  .until_10 {
+      padding-right: 50px;
+      padding-left: 50px;
+  }
+  
+  section {
+      text-align: center;
+  }
+  
+  .titre {
+      font-size: 4.5rem;	
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+  
+  .board {
+      background-color: brown;
+      border-radius: 10px;
+      color: white;
+  }	
+  
+  .teddy {
+      width: 300px;
+      height: 200px;
+      border: 1px solid #778899;
+      border-radius: 5px;
+      box-shadow: 0px 0px 1px 1px black;
+  }
+  
+  h1 + p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+  }
+  
+  input {
+      font-size: 0.9em;
+      margin-top: 10px;
+      font-family: 'KaushanScript-Regular', sans-serif;
+      height: 30px;
+  }
+  
+   /* page Panier */
+  #formulaire {
+      border: 2px solid grey;
+      width: 75%;
+      margin: auto;
+      font-family: 'Montserrat-Regular', sans-serif;
+      text-align: center;
+      background-color: #005257;
+  }
+  
+  .form {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+  label {
+      color: #FFFFFF;
+  }
+  
+  
+   /* responsive */
+  
+   @media all and (max-width: 925px) {  
+      .list_block {
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }
+  
+  @media all and (max-width: 325px) {
+      .img {
+          max-width: 250px;
+          max-height: 160px;
+  
+      }
+      .until {
+      max-width: 250px;	
+      max-height: 240px;	
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
